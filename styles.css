@@ -357,6 +357,10 @@ footer .copyright {
 }
 
 @media screen and (max-width: 873px) and (orientation: landscape) {
+    body {
+        overflow: hidden;
+    }
+    
     body::before {
         height: 170%;
         right: 39%;
@@ -371,7 +375,7 @@ footer .copyright {
     }
 
     .conteudo {
-        height: 60%;
+        height: 50%;
     }
     
     .conteudo .texto {
@@ -403,7 +407,7 @@ footer .copyright {
     }
 
     .caixa-botoes {
-        margin-top: 0px;
+        margin-top: 15px;
     }
 
     .caixa-botoes .botao {
