@@ -359,11 +359,11 @@ footer .copyright {
 @media screen and (max-width: 873px) and (orientation: landscape) {
     body::before {
         height: 170%;
-        right: 40%;
+        right: 39%;
     }
 
     body::after {
-        font-size: 60px;
+        font-size: 58px;
     }
 
     header .logo-img {
@@ -389,6 +389,10 @@ footer .copyright {
         line-height: 35px;
     }
 
+    .conteudo .texto p {
+        font-size: 12px;
+    }
+
     .conteudo .caixa-imagem {
         margin-top: 0px;
     }
@@ -399,7 +403,7 @@ footer .copyright {
     }
 
     .caixa-botoes {
-        margin-top: 8px;
+        margin-top: 0px;
     }
 
     .caixa-botoes .botao {
@@ -410,7 +414,7 @@ footer .copyright {
 
 @media (max-width: 852px) and (orientation: landscape) {
     body::before {
-        right: 26%;
+        right: 40%;
     }
     
     body::after {
@@ -744,7 +748,7 @@ footer .copyright {
     }
 }
 
-@media (max-width: 392px) {
+@media (max-width: 393px) {
     body {
         padding: 0;
         padding: 12px 20px;
