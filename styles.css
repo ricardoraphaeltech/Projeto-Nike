@@ -356,6 +356,50 @@ footer .copyright {
     }
 }
 
+@media screen and (max-width: 873px) and (orientation: landscape) {
+    body::before {
+        height: 170%;
+        right: 40%;
+    }
+
+    body::after {
+        font-size: 87px;
+    }
+    
+    .conteudo .texto {
+        width: 280px;
+    }
+
+    .conteudo .texto h4 {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+    .conteudo .texto h1 {
+        margin-bottom: 5px;
+        font-size: 32px;
+        line-height: 35px;
+    }
+
+    .conteudo .caixa-imagem {
+        margin-top: 0px;
+    }
+
+    .conteudo .texto .botao-carrinho {
+        padding: 7px 14px;
+        font-size: 13px;
+    }
+
+    .caixa-botoes {
+        margin-top: 8px;
+    }
+
+    .caixa-botoes .botao {
+        width: 35px;
+        height: 35px;
+    }
+}
+
 @media (max-width: 852px) and (orientation: landscape) {
     body::before {
         right: 26%;
